@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plumbing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/metismenu/dist/metisMenu.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="header-container">
+        <div class="navbar-wrapper">
+            <div class="container">
+                <div class="navbar">
+                    <div class="nav-logo">
+                        <a href="#"><img src="./images/logo-removebg-preview.png"></a>
+                    </div>
+                    <div class="hamburger" id="hamburger">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                    <ul class="nav-links" id="nav-links">
+                        <button id="cross-btn" class="cross cross-btn"><i class="fa-solid fa-xmark"></i></button>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle">Services</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="emergencyplumbing.html">Emergency Plumbing</a></li>
+                                <li><a href="draincleaning.html">Drain Cleaning & Unclogging</a></li>
+                                <li><a href="waterheater.html">Water Heater Installation & Repair</a></li>
+                                <li><a href="leakdetection.html">Leak Detection & Pipe Repair</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="reviews.html">Reviews</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="contact.html"><button class="theme-btn">Get a Free Quote</button></a></li>
+                    </ul>
+                </div>
+                <hr class="line">
+            </div>
+        </div>
+        <aside id="mobile-sidebar" class="mobile-sidebar" aria-label="Mobile menu">
+            <button id="mobile-sidebar-close" class="close-btn" aria-label="Close menu">
+                <i class="fa fa-times"></i>
+            </button>
+            <nav class="mobile-nav">
+                <ul class="metismenu" id="mobile-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li>
+                        <a href="javascript:void(0)" class="has-arrow" aria-expanded="false">Services</a>
+                        <ul aria-expanded="false">
+                            <li><a href="emergencyplumbing.html">Emergency Plumbing</a></li>
+                            <li><a href="draincleaning.html">Drain Cleaning & Unclogging</a></li>
+                            <li>
+                                <a href="waterheater.html">Water Heater Installation & Repair</a>
+                            </li>
+                            <li><a href="leakdetection.html">Leak Detection & Pipe Repair</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li>
+                        <a href="contact.html"><button class="white-bg-btn">Get a Free Quote</button></a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide hero-swiper">
+                    <img src="./images/hero/hero-image-1 - Copy.jpg" class="slide-bg-img" alt="Slide 1" />
+                    <div class="hero-overlay"></div>
+                    <div class="container">
+                        <div class="slide-content">
+                            <h1>Expert Plumbing Services</h1>
+                            <p><i class="fa-solid fa-screwdriver-wrench"></i> &nbsp;We fix everything from leaky
+                                taps to full installations.</p>
+                            <div class="hero-buttons">
+                                <a href="contact.html" class="theme-btn">Get Started</a>
+                                <a href="contact.html" class="transparent-btn">Contact Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide hero-swiper">
+                    <img src="./images/hero/hero-image-2 - Copy.jpg" class="slide-bg-img" alt="Slide 2" />
+                    <div class="hero-overlay"></div>
+                    <div class="container">
+                        <div class="slide-content">
+                            <h1>24/7 Emergency Repairs</h1>
+                            <p><i class="fa-solid fa-screwdriver-wrench"></i> &nbsp;Call us anytime — day or
+                                night — we’re ready.</p>
+                            <div class="hero-buttons">
+                                <a href="contact.html" class="theme-btn">Get Started</a>
+                                <a href="contact.html" class="transparent-btn">Contact Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide hero-swiper">
+                    <img src="./images/hero/hero-image-3 - Copy.jpg" class="slide-bg-img" alt="Slide 1" />
+                    <div class="hero-overlay"></div>
+                    <div class="container">
+                        <div class="slide-content">
+                            <h1>Affordable & Reliable</h1>
+                            <p><i class="fa-solid fa-screwdriver-wrench"></i> &nbsp;Top-quality plumbing at fair
+                                prices you can trust.</p>
+                            <div class="hero-buttons">
+                                <a href="contact.html" class="theme-btn">Get Started</a>
+                                <a href="contact.html" class="transparent-btn">Contact Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="need-help">
+        <a href="tel:+123456789" class="need-help-btn"><i class="fa-solid fa-phone-volume fa-bounce"></i></a>
+    </div>
+    <div class="about-aboutus-wrapper pt pb">
+        <div class="container">
+            <div class="about-aboutus">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="about-aboutus-left">
+                                <h5><i class="fa-solid fa-screwdriver-wrench"></i> &nbsp;About Us</h5>
+                                <h1>Best Plumbing Services with Affordable Prices</h1>
+                                <img src="./images/about-aboutus.jpg">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="about-aboutus-right">
+                                <p>We are committed to delivering exceptional plumbing services that combine
+                                    reliability, affordability, and professionalism.
+                                    Our goal is to be the go-to solution for all your plumbing needs—whether it’s a
+                                    leaky tap, a clogged drain, or a complete plumbing installation.</p>
+                                <p>With a team of skilled and licensed plumbers, we ensure fast response, honest
+                                    pricing, and long-lasting results.
+                                    We value your time and money, and we strive to solve problems efficiently, with
+                                    minimum disruption to your home or business.</p>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6">
+                                        <h2>Our Vision</h2>
+                                        <p class="padding-left"><i class="fa-solid fa-circle-check"></i> &nbsp;Trusted
+                                            Service</p>
+                                        <p class="padding-left"><i class="fa-solid fa-circle-check"></i>
+                                            &nbsp;Affordable Quality</p>
+                                        <p class="padding-left"><i class="fa-solid fa-circle-check"></i> &nbsp;Modern
+                                            Solutions</p>
+                                        <p class="padding-left"><i class="fa-solid fa-circle-check"></i> &nbsp;Fast
+                                            Response</p>
+                                        <p class="padding-left"><i class="fa-solid fa-circle-check"></i> &nbsp;Happy
+                                            Clients</p>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <h2>Our Mission</h2>
+                                        <p class="padding-left"><i class="fa-solid fa-circle-check"></i> &nbsp;Fast
+                                            Response</p>
+                                        <p class="padding-left"><i class="fa-solid fa-circle-check"></i> &nbsp;Happy
+                                            Clients</p>
+                                        <p class="padding-left"><i class="fa-solid fa-circle-check"></i> &nbsp;Lasting
+                                            Results</p>
+                                        <p class="padding-left"><i class="fa-solid fa-circle-check"></i> &nbsp;Trusted
+                                            Service</p>
+                                        <p class="padding-left"><i class="fa-solid fa-circle-check"></i>
+                                            &nbsp;Affordable Quality</p>
+                                    </div>
+                                </div>
+                                <button class="theme-btn">Contact Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-bottom">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="about-bottom-contents">
+                            <img src="./images/affordable-price.png">
+                            <h5>Affordable Price</h5>
+                            <p>We provide pricing & detailed estimates, so know what expect work begins.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="about-bottom-contents">
+                            <img src="./images/expert-plumber.png">
+                            <h5>Expert Plumber</h5>
+                            <p>We provide pricing & detailed estimates, so know what expect work begins.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="about-bottom-contents">
+                            <img src="./images/highquality.png">
+                            <h5>Quality Improve</h5>
+                            <p>We provide pricing & detailed estimates, so know what expect work begins.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="about-bottom-contents">
+                            <img src="./images/100-percent.png">
+                            <h5>100% Certified</h5>
+                            <p>We provide pricing & detailed estimates, so know what expect work begins.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-services-wrapper pt pb">
+        <div class="container">
+            <div class="about-services">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="about-services-left">
+                            <h1>We Always Provide Services That Stand Out from the Rest</h1>
+                            <div class="about-review">
+                                <h1>10K</h1>
+                                <p>Customer Review</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-services-right">
+                            <div class="row">
+                                <div class="col-lg-6 mb-3 col-md-6">
+                                    <div class="about-service-right-inner">
+                                        <div class="about-service-right-inner-image">
+                                            <img src="./images/tap.png">
+                                        </div>
+                                        <div class="about-service-right-inner-content">
+                                            <h1>250</h1>
+                                            <p>Running Project</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 mb-3 col-md-6">
+                                    <div class="about-service-right-inner">
+                                        <div class="about-service-right-inner-image">
+                                            <img src="./images/team-members.png">
+                                        </div>
+                                        <div class="about-service-right-inner-content">
+                                            <h1>10+</h1>
+                                            <p>Team Member</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 mb-3 col-md-6">
+                                    <div class="about-service-right-inner">
+                                        <div class="about-service-right-inner-image">
+                                            <img src="./images/shower.png">
+                                        </div>
+                                        <div class="about-service-right-inner-content">
+                                            <h1>1000+</h1>
+                                            <p>Happy Clients</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="about-service-right-inner">
+                                        <div class="about-service-right-inner-image">
+                                            <img src="./images/award-winning.png">
+                                        </div>
+                                        <div class="about-service-right-inner-content">
+                                            <h1>6</h1>
+                                            <p>Award Winnings</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-who-we-are-wrapper pt pb">
+        <div class="container">
+            <div class="who-we-are">
+                <h5><i class="fa-solid fa-screwdriver-wrench"></i> &nbsp;Who We Are</h5>
+                <h1>Your Trusted Plumbing Professionals</h1>
+                <p>We are a trusted plumbing company committed to delivering reliable, affordable, and high-quality
+                    plumbing solutions. Here's what makes us stand out:</p>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="who-we-are-card">
+                            <img src="./images/professional-team.png" alt="">
+                            <h6>Professional Team</h6>
+                            <p>Our plumbers are certified, skilled, and experienced in handling all types of plumbing
+                                jobs.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="who-we-are-card">
+                            <img src="./images/customer-first-approach.png" alt="">
+                            <h6>Customer-First Approach</h6>
+                            <p>We prioritize your comfort and satisfaction with every service we provide.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="who-we-are-card">
+                            <img src="./images/services.png" alt="">
+                            <h6>Wide Range of Services</h6>
+                            <p>From leak repairs to full system installations, we've got you covered.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="who-we-are-card">
+                            <img src="./images/affordable & reasonable.png" alt="">
+                            <h6>Affordable & Transperancy Pricing</h6>
+                            <p>No hidden fees—just fair pricing and honest service professionally.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="who-we-are-card">
+                            <img src="./images/timely.png" alt="">
+                            <h6>Timely & Efficient Work</h6>
+                            <p>We respect your time and complete all work promptly and professionally.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="who-we-are-card">
+                            <img src="./images/quality.png" alt="">
+                            <h6>Quality That Lasts</h6>
+                            <p>We use top-grade materials and follow best practices to ensure durable results. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-contact-wrapper pb">
+        <img src="./images/about-contact.jpg" alt="">
+        <div class="about-contact-overlay"></div>
+        <div class="container">
+            <div class="about-contact">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="about-contact-left">
+                            <h5><i class="fa-solid fa-screwdriver-wrench"></i> &nbsp;Feel Free To Contact</h5>
+                            <h1>Ready To Experience Plumbing Work Difference?</h1>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="about-contact-right">
+                            <button class="transparent-btn">Get a Quote</button>
+                            <button class="white-bg-btn">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-wrapper pt">
+        <div class="container">
+            <div class="footer-top">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <a href="index.html"><img src="./images/logo-removebg-preview.png"></a>
+                    </div>
+                    <div class="col-lg-9">
+                        <p>Welcome to Plumbing, your go-to solution for reliable, affordable, and expert plumbing
+                            services. With years of experience in the industry, we take pride in delivering high-quality
+                            plumbing solutions for both residential and commercial clients.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-mid">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <h5 class="fm">Get In Touch</h5>
+                        <hr>
+                        <h6><i class="fa-solid fa-phone-volume"></i> &nbsp;Contact</h6>
+                        <a href="tel:123456">
+                            <p>+012 345678910</p>
+                        </a>
+                        <h6><i class="fa-solid fa-envelope"></i> &nbsp;E-mail</h6>
+                        <a href="mailto:mail@mail.com">
+                            <p>info@infotoinfo.com</p>
+                        </a>
+                        <h6><i class="fa-solid fa-location-dot"></i> &nbsp;Location</h6>
+                        <a
+                            href="https://www.google.com/maps/place/Web+Tuned+Studio/@27.6823691,85.3126758,17z/data=!3m1!4b1!4m6!3m5!1s0x39eb19628ba30cb5:0x7927837c54013d33!8m2!3d27.6823644!4d85.3152507!16s%2Fg%2F11sdyj9b0t?entry=ttu&g_ep=EgoyMDI1MDcwNi4wIKXMDSoASAFQAw%3D%3D">
+                            <p>Kathmandu, Nepal</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-2">
+                        <h5 class="fm">Socials</h5>
+                        <hr>
+                        <a href="contact.html">
+                            <p class="mt-1"><i class="fa-brands fa-facebook"></i> &nbsp;Facebook</p>
+                        </a>
+                        <a href="contact.html">
+                            <p><i class="fa-brands fa-instagram"></i> &nbsp;Instagram</p>
+                        </a>
+                        <a href="contact.html">
+                            <p><i class="fa-brands fa-twitter"></i> &nbsp;Twitter</p>
+                        </a>
+                        <a href="contact.html">
+                            <p><i class="fa-brands fa-whatsapp"></i> &nbsp;Whatsapp</p>
+                        </a>
+                        <a href="contact.html">
+                            <p><i class="fa-brands fa-linkedin"></i> &nbsp;LinkedIn</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 offset-lg-1 col-md-4">
+                        <h5 class="fm">Quick Links</h5>
+                        <hr>
+                        <ul class="custom-list">
+                            <a href="index.html">
+                                <li>Home</li>
+                            </a>
+                            <a href="about.html">
+                                <li>About Us</li>
+                            </a>
+                            <a href="#">
+                                <li>Services</li>
+                            </a>
+                            <a href="gallery.html">
+                                <li>Gallery</li>
+                            </a>
+                            <a href="faq.html">
+                                <li>FAQ</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-4">
+                        <h5 class="fm">Support</h5>
+                        <hr>
+                        <ul class="custom-list">
+                            <a href="contact.html">
+                                <li>Help</li>
+                            </a>
+                            <a href="contact.html">
+                                <li>Conditions</li>
+                            </a>
+                            <a href="contact.html">
+                                <li>Privacy Policy</li>
+                            </a>
+                            <a href="contact.html">
+                                <li>Contact</li>
+                            </a>
+                            <a href="gallery.html">
+                                <li>Gallery</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-4">
+                        <h5 class="fm">Services</h5>
+                        <hr>
+                        <ul class="custom-list">
+                            <a href="leakdetection.html">
+                                <li>Leak Detection</li>
+                            </a>
+                            <a href="draincleaning.html">
+                                <li>Drain Cleaning</li>
+                            </a>
+                            <a href="draincleaning.html">
+                                <li>Pipe Installment</li>
+                            </a>
+                            <a href="draincleaning.html">
+                                <li>Leak Detection</li>
+                            </a>
+                            <a href="draincleaning.html">
+                                <li>Leak Detection</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-line">
+            <div class="footer-bottom">
+                <p>Copyright <i class="fa-solid fa-copyright"></i>
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script>. &nbsp;&nbsp;All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS Libraries -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/metismenu"></script>
+
+    <!-- Initialization JS -->
+    <script>
+        $(document).ready(function () {
+            // Initialize MetisMenu
+            $("#mobile-menu").metisMenu();
+
+            // Open mobile sidebar on hamburger click
+            $("#hamburger").click(function () {
+                $("#mobile-sidebar").addClass("show");
+            });
+
+            // Close mobile sidebar on close button click
+            $("#mobile-sidebar-close").click(function () {
+                $("#mobile-sidebar").removeClass("show");
+            });
+        });
+    </script>
+</body>
+
+</html>
