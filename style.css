@@ -1440,69 +1440,6 @@ p {
   .nav-links{
     display: none !important;
   }
-  /* .nav-links {
-    flex-direction: column;
-    align-items: flex-start;
-    position: fixed;
-    width: 300px;
-    right: -100%;
-    height: 100vh;
-    top: 0;
-    z-index: 100;
-    background: var(--primary-color);
-    color: white !important;
-    padding-top: 30px;
-    padding-left: 30px;
-  }
-  .dropdown-menu{
-    position: relative;
-    width: 270px;
-    padding: 10px !important;
-    margin-left: -10px !important;
-    margin-top: 10px !important;
-  }
-  .navbar ul li a {
-    color: white;
-  }
-  .nav-links.active {
-    right: 0;
-  }
-  .cross-btn {
-    display: block;
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    background: transparent;
-    border: none;
-    font-size: 24px;
-    color: white;
-    cursor: pointer;
-    z-index: 101;
-  }
-  .nav-links .theme-btn {
-    background: none;
-    border: 1px solid white;
-    margin-left: -5px;
-  }
-  .nav-links .theme-btn:hover {
-    background: white;
-    color: var(--primary-color);
-  }
-  .dropdown-menu {
-    background: var(--primary-color) !important;
-  } */
-  /* .dropdown .dropdown-menu {
-    display: none;
-  }
-  .dropdown .dropdown-menu.show {
-    display: block;
-  }
-  .dropdown:hover .dropdown-menu {
-    display: block;
-    width: 350px;
-    padding: 10px;
-    margin-top: 10px;
-  } */
 
   .slide-content {
     margin-left: 20px;
@@ -1721,6 +1658,13 @@ p {
     margin-left: 0;
     margin-top: 20px;
   }
+  /* contact */
+  .get-in-touch-right h2 {
+    font-size: 24px;
+  }
+  .get-in-touch-right p {
+    font-size: 16px;
+  }
   .consultation-right {
     position: relative;
     margin-top: 20px;
@@ -1926,4 +1870,10 @@ p {
     }
     .nav-active-mobile{
       color: var(--neutral-color) !important;
+    }
+
+
+    .get-in-touch-right a{
+      color: var(--accent-color);
+      text-decoration: none;
     }
