@@ -54,11 +54,12 @@ p {
   padding: 10px;
   margin-top: 10px;
 }
-.dropdown-menu li {
+.dropdown-menu li a{
   transition: transform 0.3s ease;
 }
-.dropdown-menu li:hover {
-  transform: translateX(20px);
+.dropdown-menu li a:hover {
+  display: inline-block;
+  transform: translateX(20px) !important;
 }
 .theme-btn {
   background: var(--primary-color);
@@ -308,6 +309,10 @@ p {
 .our-services-btn .white-bg-btn {
   margin-top: 30px;
 }
+.our-service{
+  border-radius: 5px !important;
+  overflow: hidden;
+}
 
 .why-choose-us-left {
   margin-top: 50px;
@@ -541,6 +546,7 @@ p {
   background: var(--accent-color);
   padding: 10px;
   border-bottom-left-radius: 50%;
+  border-top-right-radius: 5px;
   color: white;
 }
 .testimonial-top-right i {
@@ -1293,7 +1299,7 @@ p {
   margin-top: 20px;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1400px) {
   /* home */
   .navbar ul {
     gap: 30px;
@@ -1697,6 +1703,15 @@ p {
     font-size: 16px;
     font-weight: 500;
   }
+
+  .services-right-inner-img img{
+    margin-top: 20px;
+  }
+}
+@media (width<400px) {
+  .services-right-inner-img img{
+    margin-top: 40px;
+  }
 }
 @media (width<350px) {
   .slide-content h1 {
@@ -1710,6 +1725,9 @@ p {
     flex-direction: column;
   }
   .hero-buttons .theme-btn {
+    width: fit-content;
+  }
+  .transparent-btn{
     width: fit-content;
   }
 }
